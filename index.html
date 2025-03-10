@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reestar</title>
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="navbar">
+      <h1 class="navbar__title">Reestar</h1>
+      <nav class="navbar__menus">
+        <ul>
+          <li>Home|</li>
+          <li>Recipie|</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Recipie menus-->
+    <div class="recipie-menus">
+      <div class="recipie-menus__box">
+        <img class="recipe-menus__image" src="./images/recipie-01.jpg" />
+        <p class="recipie-menus__desc">
+          Chicken Biryani is a flavorful and aromatic rice dish that originated
+          in the Indian subcontinent and is loved worldwide.
+        </p>
+        <button class="recipie-menus__orderbtn">Order Now</button>
+      </div>
+
+      <div class="recipie-menus__box">
+        <img class="recipe-menus__image" src="./images/recipie-02.jpg" />
+        <p class="recipie-menus__desc">
+          Dosa is a crispy, golden-brown, and thin pancake made from a fermented
+          batter of rice and urad dal (black gram lentils).
+        </p>
+        <button class="recipie-menus__orderbtn">Order Now</button>
+      </div>
+
+      <div class="recipie-menus__box">
+        <img class="recipe-menus__image" src="./images/recipie-03.jpg" />
+        <p class="recipie-menus__desc">
+          Parotta (or Barotta) is a layered, flaky, and soft Indian flatbread
+          made from maida (refined flour), water, oil, and salt.
+        </p>
+        <button class="recipie-menus__orderbtn">Order Now</button>
+      </div>
+
+      <div class="recipie-menus__box">
+        <img class="recipe-menus__image" src="./images/recipie-04.jpg" />
+        <p class="recipie-menus__desc">
+          Vada is a crispy, deep-fried South Indian snack made from lentil
+          batter. It is known for its golden-brown crust and soft, fluffy
+        </p>
+        <button class="recipie-menus__orderbtn">Order Now</button>
+      </div>
+    </div>
+
+    <!--Contact information-->
+    <div class="contact">
+      <h2 class="contact__title">Contact Us</h2>
+      <form>
+        <table>
+          <tr>
+            <td>
+              <label for="name">Name:</label>
+            </td>
+
+            <td>
+              <input type="text" id="name" placeholder="Enter your name" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="age">Age:</label>
+            </td>
+
+            <td>
+              <input type="number" id="age" placeholder="Enter your age" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="email">Email:</label>
+            </td>
+
+            <td>
+              <input type="email" id="email" placeholder="Enter your email" />
+            </td>
+          </tr>
+        </table>
+      </form>
+      <button class="contact__sendbtn">Send</button>
+    </div>
+  </body>
+</html>
